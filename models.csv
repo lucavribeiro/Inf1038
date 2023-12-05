@@ -1,0 +1,11 @@
+,Model,Train Score,Test Score,Best Params
+0,Logistic Regression,0.8551417809497813,0.7864512067997768,{'C': 1}
+1,SVC rbf,0.8611685061527988,0.7721698248032369,"{'C': 10, 'gamma': 0.1, 'kernel': 'rbf', 'probability': True}"
+2,SVC poly,0.8827666995358318,0.7565950928830414,"{'C': 1, 'degree': 2, 'kernel': 'poly', 'probability': True}"
+3,Random Forest Classifier,0.8761751468633401,0.7775741889507252,"{'max_depth': 100, 'max_leaf_nodes': 600, 'n_estimators': 500}"
+4,KNN,0.829006394358123,0.6837642921367546,{'n_neighbors': 10}
+5,Naive Bayes,0.841699767970446,0.7768429334670092,{}
+6,Decision Tree,0.8846417949957864,0.6799373364361562,{'max_depth': 100}
+7,LightGBM,0.8266517607814851,0.7714653355113226,{'num_leaves': 10}
+8,XGBoost,0.8894987829872039,0.7679569464180195,{'max_depth': 10}
+9,CatBoost,0.8376703900919972,0.7816794454436,{'max_depth': 10}

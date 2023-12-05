@@ -1,0 +1,8 @@
+,Model,Train Score,Test Score,Best Params
+0,Logistic Regression,0.9426044043803135,0.8973464721065647,{'C': 1}
+1,Random Forest Classifier,0.9582361880717837,0.8864348411059657,"{'max_depth': 100, 'max_leaf_nodes': 1000, 'n_estimators': 600}"
+2,KNN,0.9391052797915587,0.5640452633619534,{'n_neighbors': 10}
+3,Naive Bayes,0.914849467140905,0.8684332396182726,{}
+4,Decision Tree,0.9387584644981929,0.7206114679195625,{'max_depth': 50}
+5,LightGBM,0.9660896714985653,0.895285645296603,"{'learning_rate': 0.08, 'num_leaves': 30}"
+6,XGBoost,0.9824808710472075,0.887187639040006,{'max_depth': 10}
